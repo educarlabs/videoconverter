@@ -33,7 +33,7 @@ class FileManager {
             if (count($var['files'])==0) $fileContent .= "[!] none\n"; else
             foreach ($var['files'] as $file)  {
                 $fileContent .= "[$filenum] in: {$file['input']}\n";
-                $fileContent .= "[$filenum] out: {$file['input']}\n";
+                $fileContent .= "[$filenum] out: {$file['output']}\n";
                 $filenum++;
             }
             
